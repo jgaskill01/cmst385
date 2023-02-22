@@ -11,7 +11,6 @@ ol {
 
 figcaption{
     background-color: #333;
-    font-size: ;
 }
 
 .header {
@@ -44,8 +43,6 @@ figcaption{
     color: black;
   } 
 
-  
-
   .figure {
     float: center;
     background-color: black;
@@ -55,9 +52,6 @@ figcaption{
     color:#ddd;
     text-align: center;
     text-indent: 0;
-    
-    
-
   }
   
 
