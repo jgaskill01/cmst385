@@ -1,21 +1,24 @@
 .header {
-    background-color: #F1F1F1;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2daaeb58-1403-446d-abe0-514da69f2ef8/dc2u5j5-a3e82c36-6278-4929-9f52-09a59c3acf7e.jpg/v1/fill/w_1024,h_576,q_75,strp/summer_evening_by_tuguldur990531_dc2u5j5-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvMmRhYWViNTgtMTQwMy00NDZkLWFiZTAtNTE0ZGE2OWYyZWY4XC9kYzJ1NWo1LWEzZTgyYzM2LTYyNzgtNDkyOS05ZjUyLTA5YTU5YzNhY2Y3ZS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.kNwNPlZiTBvcPBVYzlfSJZN9VJCHZxqm89Et0XAxUtk);
+    background-position: center -160px;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-size: 48px;
     text-align: center;
-    padding: 20px;
+    padding: 48px;
   } 
   /* The navbar container */
   .topnav {
     overflow: hidden;
     background-color: #333;
+    display: flex;
+    justify-content: space-around;
   }
   
   /* Navbar links */
   .topnav a {
-    float: left;
-    display: block;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 14px 14px;
     text-decoration: none;
   }
   
@@ -25,6 +28,10 @@
     color: black;
   } 
 
-  p{
-    
+  /* Body Background */
+
+  .bodyBackground {
+    background-color: #333;
   }
+
+
