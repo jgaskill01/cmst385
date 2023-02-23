@@ -22,6 +22,7 @@ figcaption{
     text-align: center;
     padding: 48px;
   } 
+
   /* The navbar container */
   .topnav {
     overflow: hidden;
@@ -43,10 +44,22 @@ figcaption{
     color: black;
   } 
 
-  .figure {
+  .musicfigure {
+    width: 100%;
     float: center;
     background-color: black;
     display: flex;
+    justify-content: space-around;
+    padding: 24px 24px;
+    color:#ddd;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  .newsfigure {
+    width: 100%;
+    float: center;
+    background-color: black;
     justify-content: space-around;
     padding: 24px 24px;
     color:#ddd;
