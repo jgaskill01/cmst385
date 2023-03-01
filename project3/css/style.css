@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 ol li{
 background-color: #333;
 padding: 4px;
@@ -15,6 +20,7 @@ figcaption{
 }
 
 .homepageheader{
+    width: 100vw;
     color: black;
     background-color: orangered;
     text-align: center;
@@ -25,6 +31,7 @@ figcaption{
 }
 
 .header {
+    width: 100vw;
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2daaeb58-1403-446d-abe0-514da69f2ef8/dc2u5j5-a3e82c36-6278-4929-9f52-09a59c3acf7e.jpg/v1/fill/w_1024,h_576,q_75,strp/summer_evening_by_tuguldur990531_dc2u5j5-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvMmRhYWViNTgtMTQwMy00NDZkLWFiZTAtNTE0ZGE2OWYyZWY4XC9kYzJ1NWo1LWEzZTgyYzM2LTYyNzgtNDkyOS05ZjUyLTA5YTU5YzNhY2Y3ZS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.kNwNPlZiTBvcPBVYzlfSJZN9VJCHZxqm89Et0XAxUtk);
     background-position: center -160px;
     background-repeat: no-repeat;
@@ -36,20 +43,24 @@ figcaption{
   } 
 
   .footer {
+    width: 100vw;
     overflow: hidden;
     background-color: #333;
     display: flex;
     justify-content: space-around;
     color: #ddd;
     text-align: center;
+    padding: 24px 24px;
     
   }
 
   .topnav {
+    width: 100vw;
     overflow: hidden;
     background-color: #333;
     display: flex;
     justify-content: space-around;
+    padding: 0px 24px;
   }
   
   .topnav a {
@@ -64,18 +75,18 @@ figcaption{
   } 
 
   .musicfigure {
-    width: 100%; 
+    width: 100vw; 
     background-color: black;
     display: flex;
     justify-content: space-around;
-    padding: 12px 12px;
+    flex-wrap: wrap;
     color:#ddd;
     text-align: center;
    
   }
 
   .newsfigure {
-    width: 100%;
+    width: 100vw;
     float: center;
     background-color: black;
     justify-content: space-around;
@@ -86,14 +97,32 @@ figcaption{
   }
 
   .homefigure {
-    width: 100%;
+    width: 100vw;
     float: center;
     background-color: black;
     justify-content: space-around;
     padding: 24px 24px;
     color:#ddd;
     text-align: center;
-    text-indent: 0;
+  }
+
+  #homepagecaption {
+    background-color: gray;
+    color: #333;
+    border-radius: 20px;
+    width: 600;
+  }
+
+  .readingarea{
+    
+        width: 100vw;
+        float: center;
+        background-color: black;
+        justify-content: space-around;
+        padding: 24px 24px;
+        color:#ddd;
+        text-align: center;
+        text-indent: 0;
   }
   
 
