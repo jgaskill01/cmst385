@@ -6,29 +6,28 @@ body {
   }
   
   ol li {
-    font-family: Verdana, Arial, sans-serif;
     background-color: #333;
     padding: 4px;
     text-align: left;
   }
   
   ol {
-    font-family: Verdana, Arial, sans-serif;
     background-color: #333;
     margin: 2PX;
   }
   
   figcaption {
-    font-family: Verdana, Arial, sans-serif;
     background-color: #333;
-    padding: 24px 24px;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
   
   .homepageheader {
     width: 100vw;
-    font-family: Verdana, Arial, sans-serif;
     color: black;
-    background-color: orangered;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, rgb(255, 0, 0), rgb(255, 136, 0));
     text-align: center;
     font-size: xx-large;
     display: flex;
@@ -36,21 +35,22 @@ body {
   }
   
   .header {
-    font-family: Verdana, Arial, sans-serif;
     width: 100vw;
+    overflow: hidden;
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2daaeb58-1403-446d-abe0-514da69f2ef8/dc2u5j5-a3e82c36-6278-4929-9f52-09a59c3acf7e.jpg/v1/fill/w_1024,h_576,q_75,strp/summer_evening_by_tuguldur990531_dc2u5j5-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvMmRhYWViNTgtMTQwMy00NDZkLWFiZTAtNTE0ZGE2OWYyZWY4XC9kYzJ1NWo1LWEzZTgyYzM2LTYyNzgtNDkyOS05ZjUyLTA5YTU5YzNhY2Y3ZS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.kNwNPlZiTBvcPBVYzlfSJZN9VJCHZxqm89Et0XAxUtk);
     background-position: center -160px;
     background-repeat: no-repeat;
     background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-size: 48px;
     text-align: center;
   }
   
   .footer {
-    font-family: Verdana, Arial, sans-serif;
     width: 100vw;
     overflow: hidden;
-    background-color: #333;
+    background-image: linear-gradient(to bottom, #3a3a3a, #242222);
     display: flex;
     justify-content: space-around;
     color: #ddd;
@@ -60,16 +60,14 @@ body {
   }
   
   .topnav {
-    font-family: Verdana, Arial, sans-serif;
     width: 100vw;
     overflow: hidden;
-    background-color: #333;
+    background-image: linear-gradient(to bottom, #3a3a3a, #242222);
     display: flex;
     justify-content: space-around;
   }
   
   .topnav a {
-    font-family: Verdana, Arial, sans-serif;
     color: #f2f2f2;
     padding: 14px 14px;
     text-decoration: none;
@@ -81,7 +79,6 @@ body {
   }
   
   .musicfigure {
-    font-family: Verdana, Arial, sans-serif;
     width: 100vw;
     background-color: black;
     display: flex;
@@ -89,30 +86,24 @@ body {
     flex-wrap: wrap;
     color: #ddd;
     text-align: center;
+    margin-bottom: 100px;
   }
   
   .newsfigure {
-    font-family: Verdana, Arial, sans-serif;
     width: 100vw;
+    overflow: hidden;
     float: center;
     background-color: black;
     justify-content: space-around;
-    padding: 24px 24px;
     color: #ddd;
     text-align: center;
     text-indent: 0;
-  }
-  
-  .newspost {
-    font-family: Verdana, Arial, sans-serif;
-    width: 100%;
-    margin: 0;
-    text-align: center;
+    padding-bottom: 100px;
   }
   
   .homefigure {
-    font-family: Verdana, Arial, sans-serif;
     width: 100vw;
+    overflow: hidden;
     float: center;
     background-color: black;
     justify-content: space-around;
@@ -122,7 +113,6 @@ body {
   }
   
   #homepagecaption {
-    font-family: Verdana, Arial, sans-serif;
     background-color: gray;
     color: #333;
     border-radius: 20px;
