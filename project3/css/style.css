@@ -1,36 +1,42 @@
-body{
+body {
+    font-family: Verdana, Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-ol li{
-background-color: #333;
-padding: 4px;
-text-align: left;
-}
-
-ol {
+    background-color: black;
+  }
+  
+  ol li {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #333;
+    padding: 4px;
+    text-align: left;
+  }
+  
+  ol {
+    font-family: Verdana, Arial, sans-serif;
     background-color: #333;
     margin: 2PX;
-}
-
-figcaption{
+  }
+  
+  figcaption {
+    font-family: Verdana, Arial, sans-serif;
     background-color: #333;
     padding: 24px 24px;
-}
-
-.homepageheader{
+  }
+  
+  .homepageheader {
     width: 100vw;
+    font-family: Verdana, Arial, sans-serif;
     color: black;
     background-color: orangered;
     text-align: center;
     font-size: xx-large;
     display: flex;
     justify-content: space-around;
-    padding: 48px;
-}
-
-.header {
+  }
+  
+  .header {
+    font-family: Verdana, Arial, sans-serif;
     width: 100vw;
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2daaeb58-1403-446d-abe0-514da69f2ef8/dc2u5j5-a3e82c36-6278-4929-9f52-09a59c3acf7e.jpg/v1/fill/w_1024,h_576,q_75,strp/summer_evening_by_tuguldur990531_dc2u5j5-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvMmRhYWViNTgtMTQwMy00NDZkLWFiZTAtNTE0ZGE2OWYyZWY4XC9kYzJ1NWo1LWEzZTgyYzM2LTYyNzgtNDkyOS05ZjUyLTA5YTU5YzNhY2Y3ZS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.kNwNPlZiTBvcPBVYzlfSJZN9VJCHZxqm89Et0XAxUtk);
     background-position: center -160px;
@@ -38,11 +44,10 @@ figcaption{
     background-color: black;
     font-size: 48px;
     text-align: center;
-    padding:24px 24px;
-
-  } 
-
+  }
+  
   .footer {
+    font-family: Verdana, Arial, sans-serif;
     width: 100vw;
     overflow: hidden;
     background-color: #333;
@@ -50,20 +55,21 @@ figcaption{
     justify-content: space-around;
     color: #ddd;
     text-align: center;
-    padding: 24px 24px;
-    
+    position: fixed;
+    bottom: 0;
   }
-
+  
   .topnav {
+    font-family: Verdana, Arial, sans-serif;
     width: 100vw;
     overflow: hidden;
     background-color: #333;
     display: flex;
     justify-content: space-around;
-    padding: 0px 24px;
   }
   
   .topnav a {
+    font-family: Verdana, Arial, sans-serif;
     color: #f2f2f2;
     padding: 14px 14px;
     text-decoration: none;
@@ -72,58 +78,53 @@ figcaption{
   .topnav a:hover {
     background-color: #ddd;
     color: black;
-  } 
-
+  }
+  
   .musicfigure {
-    width: 100vw; 
+    font-family: Verdana, Arial, sans-serif;
+    width: 100vw;
     background-color: black;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    color:#ddd;
+    color: #ddd;
     text-align: center;
-   
   }
-
+  
   .newsfigure {
+    font-family: Verdana, Arial, sans-serif;
     width: 100vw;
     float: center;
     background-color: black;
     justify-content: space-around;
     padding: 24px 24px;
-    color:#ddd;
+    color: #ddd;
     text-align: center;
     text-indent: 0;
   }
-
+  
+  .newspost {
+    font-family: Verdana, Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  
   .homefigure {
+    font-family: Verdana, Arial, sans-serif;
     width: 100vw;
     float: center;
     background-color: black;
     justify-content: space-around;
-    padding: 24px 24px;
-    color:#ddd;
+    color: #ddd;
     text-align: center;
+    text-indent: 0;
   }
-
+  
   #homepagecaption {
+    font-family: Verdana, Arial, sans-serif;
     background-color: gray;
     color: #333;
     border-radius: 20px;
     width: 600;
   }
-
-  .readingarea{
-    
-        width: 100vw;
-        float: center;
-        background-color: black;
-        justify-content: space-around;
-        padding: 24px 24px;
-        color:#ddd;
-        text-align: center;
-        text-indent: 0;
-  }
-  
-
-
