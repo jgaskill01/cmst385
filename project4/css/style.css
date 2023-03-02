@@ -1,0 +1,119 @@
+:root {
+  --darkgreen: #273c2c;
+  --darkgrey: #626868;
+  --lightgrey: #939196;
+  --lightpurple: #d3c1d2;
+  --lightpink: #ffe2fe;
+  --darkpurple: #140014;
+  --altdarkpurple: #181118;
+}
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--darkpurple);
+  color: var(--lightpurple);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: var(--lightpurple);
+  font-family: Verdana, Arial, sans-serif;
+  text-align: center;
+  font-size: larger;
+}
+
+h2 {
+  color: var(--lightpurple);
+  font-family: Verdana, Arial, sans-serif;
+  text-align: center;
+  font-size: large;
+}
+ 
+p {
+  color: var(--lightpurple);
+  font-family: Verdana, Arial, sans-serif;
+  font-size: medium;
+  margin: 0;
+}
+
+ol{
+
+}
+
+ul{
+
+}
+
+table{
+
+}
+
+
+
+header {
+  color: var(--lightpurple);
+  width: 100vw;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to bottom,
+    var(--darkpurple),
+    var(--altdarkpurple)
+  );
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 48px;
+  text-align: center;
+}
+
+footer {
+  width: 100vw;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to bottom,
+    var(--darkgrey),
+    var(--lightgrey)
+  );
+  display: flex;
+  justify-content: space-around;
+  color: var(--darkgreen);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+}
+
+nav {
+  width: 100vw;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to bottom,
+    var(--darkgrey),
+    var(--lightgrey)
+  );
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: var(--darkgreen);
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: var(--darkgreen);
+  color: var(--lightpurple);
+}
+
+.pagewrapper{
+  width: 80%;
+  background-color: var(--lightpurple);
+  color: var(--darkgreen);
+  margin: 20px;
+  
+}
