@@ -33,7 +33,7 @@ h2 {
   text-align: center;
   font-size: large;
 }
- 
+
 p {
   color: var(--lightpurple);
   font-family: Verdana, Arial, sans-serif;
@@ -41,21 +41,17 @@ p {
   margin: 0;
 }
 
-ol{
-
+/*ol {
 }
 
-ul{
-
+ul {
 }
 
-table{
-
+table {
 }
 
 
-
-header {
+*/header {
   color: var(--lightpurple);
   width: 100vw;
   overflow: hidden;
@@ -110,10 +106,9 @@ nav a:hover {
   color: var(--lightpurple);
 }
 
-.pagewrapper{
+.pagewrapper {
   width: 80%;
   background-color: var(--lightpurple);
   color: var(--darkgreen);
   margin: 20px;
-  
 }
