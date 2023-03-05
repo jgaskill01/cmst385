@@ -18,11 +18,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  
 }
 
 h1 {
-  color: var(--lightpurple);
+  color: var(--darkgreen);
   font-family: Verdana, Arial, sans-serif;
   text-align: center;
   font-size: larger;
@@ -35,9 +35,10 @@ h2 {
   font-size: large;
 }
 
-h5{
+h3{
   color: var(--darkgreen);
   font-family: Verdana, Arial, sans-serif;
+  font-size: medium;
 }
 
 p {
@@ -82,6 +83,13 @@ padding: 8px;
 #defaulttable tabledata {
 border: 1px solid var(--darkgrey);
 padding: 8px;
+}
+
+#homeimage{
+  float: center;
+  justify-content: space-around;
+  padding: 20px;
+
 }
 
 .blogleftcolumn{
