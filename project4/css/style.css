@@ -20,6 +20,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+}
+
+a{
+  color: var(--lightpurple);
+}
+
+hr{
+  border: 10px solid var(--darkgreen);
+  border-radius: 5px;
 }
 
 .floatleft {
@@ -144,6 +154,13 @@ ul {
     padding: 0;
   }
 }
+
+.booksfigure{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 
 header {
   color: var(--lightpurple);
